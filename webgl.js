@@ -1,6 +1,6 @@
 "use strict";
 
-var GL = module.exports = require('./build/Release/webgl.node');
+var GL = module.exports = require('./build/Debug/webgl.node');
 var WebGLRenderingContext = GL.WebGLRenderingContext;
 
 var gl = WebGLRenderingContext.prototype;
